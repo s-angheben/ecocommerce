@@ -13,7 +13,7 @@ const ShopList =  () => {
   return (
     <div className="flex flex-col items-center justify-start min-h-screen mt-8"> {/* Added mt-8 for top margin */}
       <div className="w-2/3 flex justify-start mb-6">
-        <h1 className="text-3xl font-bold from-green-400 to-green-600 bg-gradient-to-l bg-clip-text text-transparent">Store Product List</h1>
+        <h1 className="text-3xl font-bold from-green-400 to-green-600 bg-gradient-to-l bg-clip-text text-transparent">Local Shops</h1>
       </div>
       <div className="grid grid-cols-3 gap-4 w-2/3">
         {products.map((product) => (

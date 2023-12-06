@@ -20,10 +20,10 @@ export default function Home() {
     <Section yPadding="pt-20 pb-20">
     <header className="text-center">
     <h1 className="text-5xl p-4 text-center font-bold from-green-600 via-yellow-600 to-blue-600 bg-gradient-to-r bg-clip-text text-transparent">
-        A Guide to Adding Gradients with Tailwind CSS
+        Local Care, Global Impact
     </h1>
 
-    <div className="mb-16 mt-4 text-2xl">The easiest way to build a React landing page in seconds.</div>
+    <div className="mb-16 mt-4 text-2xl">Your Sustainable E-commerce in the Heart of Trentino</div>
 
     <Link
     href="/store"
@@ -38,19 +38,19 @@ export default function Home() {
     <Background color="bg-gradient-to-r from-blue-600 to-green-600">
     <Section yPadding="pt-2 pb-2">
     <VerticalFeatureRow
-      title="Your title here"
-      description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse bibendum, nunc non posuere consectetur, justo erat semper enim, non hendrerit dui odio id enim."
-      image="/images/ecocommerce.jpg"
+      title="We believe in local economy, and you?"
+      description="Buy what you are looking for directly from the shops in your area, but online! By doing so you will help small-medium sized businesses to approach this world."
+      image="/images/eco5.png"
       imageAlt="First feature alt text"
       reverse={true}
     />
     </Section>
     </Background>
-    <Background color="bg-gradient-to-r from-green-600 to-blue-600">
+    <Background color="bg-gradient-to-r from-blue-600 to-green-600">
     <Section yPadding="pt-2 pb-2">
     <VerticalFeatureRow
-      title="Your title here"
-      description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse bibendum, nunc non posuere consectetur, justo erat semper enim, non hendrerit dui odio id enim."
+      title="Single site to manage all local products"
+      description="Search, filter and find all local products available in your area on one platform. Explore the page dedicated to local shops and their products."
       image="/images/phone.png"
       imageAlt="First feature alt text"
       reverse={false}
@@ -60,8 +60,8 @@ export default function Home() {
     <Background color="bg-gradient-to-r from-blue-600 to-green-600">
     <Section yPadding="pt-2 pb-2">
     <VerticalFeatureRow
-      title="Your title here"
-      description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse bibendum, nunc non posuere consectetur, justo erat semper enim, non hendrerit dui odio id enim."
+      title="Are you a local shop?"
+      description="Start your online business easily, discover all the advantages via the dedicated page and join us."
       image="/images/map.jpg"
       imageAlt="First feature alt text"
       reverse={true}

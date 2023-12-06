@@ -1,7 +1,9 @@
 import React from 'react'
 import Navbar2 from '../components/blocks/NavBar2'
 import UnderlineLink from "../components/blocks/underline-link"
+import Slider from "../components/blocks/Slider.tsx"
 import ShopList from "../components/blocks/ShopList"
+
 
 const StorePage = () => {
     return (
@@ -25,6 +27,7 @@ const StorePage = () => {
           className="w-full border-2 rounded-md px-4 py-2 outline-none focus:border-blue-500"
         />
       </div>
+    <Slider />
     </div>
 
     <UnderlineLink href="/products">Explore all local products</UnderlineLink>
